@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito Sans';
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: url("back-01.svg");
+  background-size: 110%;
+}
+
+.home{
+  height:50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button {
+  width: 20vw;
+  height: 10vh;
+  font-size: larger;
+  border-radius: 50px;
+  border: none;
+  background-color: #345B63;
+}
+.btn button:hover{
+  background-color: #152D35;
+}
+
+.btn a{
+  text-decoration: none;
+  color: white;
+  padding: 25px 100px;
+  font-weight: 700;
+}
+.home h2{
+  color: #345B63;
+  font-size: 8vh;
+  display: block;
+  font-family: 'Helvetica';
+}
+
+nav{
+  width: 100%;
+  overflow: hidden;
+  background-color: #345B63;
+}
+nav ul{
+  list-style-type: none;
+  float: right;
+  
+}
+nav ul li {
+  display: inline-block;
+  
+}
+nav ul li a{
+  text-decoration: none;
+  padding: 20px 20px;
+  text-align: center;
+  color: white;
+  display: block;
+  font-weight: 700;
+  font-family: 'Helvetica';
+}
+
+a:hover{
+  background-color: #152D35;
+  border-radius: 5px;
+
+}
+.logo{
+  float: left;
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
+
+.logo1{
+  float: left;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+}
+
+
+
+.play {
+  padding: 100px 20px;
+}

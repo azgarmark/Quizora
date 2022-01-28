@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Quizora.png">
+    <title>Quizora</title>
+    
+    
+    <script type="text/javascript">
+        var width = 0;
+        function update() {
+            var element = document.getElementById("myprogressBar");
+            //var identity = setInterval(scene, 1000);
+           
+                if (width >= 100) {
+                    width = 0;
+                //clearInterval(identity);
+                } else {
+                width = width + 20;
+                if(width>=100)
+                    width = 0;
+                element.style.width = width + '%';
+                }
+            
+            }
+    </script>
+</head>
+
+<body>
+    
+    <div class="quiz-container" id="quiz">
+        <center><h2 class="hh" id="playerName">Player</h2></center> <br> <br>
+        
+         <div id="Progress_Status">
+            <div id="myprogressBar"></div>
+        </div>
+        <h3 class="center">Time taken: </h3>
+        <div style="display: inline-block;" class="left" id='seconds-counter'></div>
+        <div class="quiz-header">
+            <h2 id="question">Question text</h2>
+            <ul>
+                <table>
+                    <tr>
+                        <td><li>
+                            <input type="radio" name="answer" id="a" class="answer">
+                            <label for="a" id="a_text"><span>Option a</span></label>
+                        </li></td>
+                        <td> <li>
+                            <input type="radio" name="answer" id="b" class="answer">
+                            <label for="b" id="b_text">Option b</label>
+                        </li></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>
+                                <input type="radio" name="answer" id="c" class="answer">
+                                <label for="c" id="c_text">Option c</label>
+                           
+            
+                        </li></td>
+                        <td> 
+                            <li>
+                                <input type="radio" name="answer" id="d" class="answer">
+                                <label for="d" id="d_text">Option d</label>
+                            </li></td>
+                    </tr>
+                </table>
+                  
+            </ul>
+        </div>
+        <button id="submit" onclick="update()">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
