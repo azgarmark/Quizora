@@ -12,3 +12,10 @@ If both the players got the same score, then the one who took least time to comp
 
 # Features
 Our project contains some extra functionalities like timer, progress bar, results review, etc.,
+
+# Navigation
+1. Home page
+2. Quiz Page
+3. Winner Page
+4. About Page
+5. Contact Page
