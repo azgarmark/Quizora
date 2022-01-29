@@ -11,7 +11,7 @@ The player can skip the questions and review the answers on the winner page.
 If both the players got the same score, then the one who took least time to complete the quiz will be declared as winner
 
 # Features
-Our project contains some extra functionalities like timer, progress bar, results review, etc.,
+The project contains extra functionalities like timer, progress bar, results review, etc.,
 
 # Navigation
 1. Home page
