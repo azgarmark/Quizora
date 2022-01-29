@@ -19,3 +19,12 @@ Our project contains some extra functionalities like timer, progress bar, result
 3. Winner Page
 4. About Page
 5. Contact Page
+
+# Quiz Box
+1. The player number is displayed at the top
+2. There is a progress bar below the name which displays the progress
+  a. Below that there is a “seconds counter” which shows the time taken by a player to complete the quiz
+  b. Below that there is a question and 4 options, out of which only one is the correct answer
+  c. The player can either choose any one option or choose not to attempt the question by simply clicking on the submit button to save time
+3. After Player 1’s turn, player 2 can start the quiz
+4. The winner will be displayed right after player 2 submits
