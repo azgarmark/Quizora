@@ -23,6 +23,7 @@ Our project contains some extra functionalities like timer, progress bar, result
 # Quiz Box
 1. The player number is displayed at the top
 2. There is a progress bar below the name which displays the progress
+
   a. Below that there is a “seconds counter” which shows the time taken by a player to complete the quiz
   
   b. Below that there is a question and 4 options, out of which only one is the correct answer
